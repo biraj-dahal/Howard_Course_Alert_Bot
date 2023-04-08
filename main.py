@@ -134,9 +134,10 @@ try:
             exit()
             
     print("Its Not Available.")
-    
 
 except Exception as e:
     print(e)
 finally:
     driver.quit()
+
+print("Test")
